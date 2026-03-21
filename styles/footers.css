@@ -1,12 +1,101 @@
 footer {
-    background: #004080;
-    padding: 2em;
+    background: #1e3a8a;
+    padding: 2.5em 2em;
     text-align: center;
+    box-shadow: 0 -4px 15px rgba(30, 58, 138, 0.15);
+    margin-top: 3em;
+    max-width: 100%;
+}
 
+footer p {
+    color: #e0e7ff;
+    margin: 0.8em 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
 }
 
 footer a {
     list-style: none;
     text-decoration: none;
-    color: blanchedalmond;
+    color: #93c5fd;
+    font-weight: bold;
+    transition: 0.3s ease;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Tablet */
+@media (max-width: 768px) {
+    footer {
+        padding: 2em 1.5em;
+        margin-top: 2em;
+    }
+
+    footer p {
+        margin: 0.6em 0;
+        font-size: 0.9em;
+    }
+
+    footer .social-links {
+        gap: 1.5em;
+    }
+
+    footer a {
+        padding: 0.4em 0.8em;
+        font-size: 0.9em;
+    }
+}
+
+/* Responsive Mobile */
+@media (max-width: 480px) {
+    footer {
+        padding: 1.5em 1em;
+        margin-top: 1.5em;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0.5em 0;
+        font-size: 0.85em;
+        line-height: 1.5;
+    }
+
+    footer .social-links {
+        flex-direction: column;
+        gap: 0.8em;
+        align-items: center;
+    }
+
+    footer a {
+        display: inline-block;
+        margin: 0.2em 0;
+        padding: 0.6em 1.2em;
+        font-size: 0.85em;
+        width: auto;
+        min-width: 120px;
+        text-align: center;
+        border: 1px solid rgba(147, 197, 253, 0.3);
+        border-radius: 6px;
+    }
+
+    footer a:hover {
+        background: rgba(59, 130, 246, 0.2);
+        border-color: #3b82f6;
+    }
 }
