@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f7f4f4;
+    background: #004080;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#img {
+    background-image: url("/img/construction-site-silhouettes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    padding-bottom: 10%;
+
+}
+
+#textacc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    font-weight: 100px;
+    text-align: right;
+    top: 20%;
+}
+
+#imglogo img {
+    background-repeat: no-repeat;
+    width: 3.9em;
+    filter: opacity(80%);
+    position: fixed;
+    left: 90%;
+    top: 80%;
+}
+
+.service {
+    background: blanchedalmond;
+    color: #004080;
+    text-align: center;
+}
+
+.service ul {
+    list-style: none;
+    gap: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.services {
+    background: blanchedalmond;
+    color: #004080;
+    text-align: center;
+}

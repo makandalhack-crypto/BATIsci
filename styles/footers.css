@@ -1,0 +1,12 @@
+footer {
+    background: #004080;
+    padding: 2em;
+    text-align: center;
+
+}
+
+footer a {
+    list-style: none;
+    text-decoration: none;
+    color: blanchedalmond;
+}
