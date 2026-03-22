@@ -73,7 +73,7 @@ section h4::after {
 #img {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-        url("img/construction-site-silhouettes.jpg");
+        url("/img/construction-site-silhouettes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -82,8 +82,10 @@ section h4::after {
     position: relative;
     min-height: 500px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    text-align: center;
 }
 
 #textacc {
@@ -95,23 +97,23 @@ section h4::after {
     -webkit-backdrop-filter: blur(10px);
     padding: 3em;
     border-radius: 12px;
-    margin-right: 2em;
     max-width: 500px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #textacc p {
+    text-align: center;
     font-size: 1.3em;
     line-height: 1.8em;
-    margin: 0.8em 0;
-    font-weight: 600;
+    font-weight: 700;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
 }
 
 #imglogo img {
     background-repeat: no-repeat;
-    width: 4.9em;
+    width: 3.9em;
     filter: opacity(85%);
     position: fixed;
     left: 90%;
@@ -139,6 +141,8 @@ section h4::after {
     color: #374151;
     max-width: 800px;
     margin: 1em auto;
+    text-indent: 2em;
+    text-align: justify;
 }
 
 .service ul {
@@ -291,6 +295,8 @@ section h4::after {
     color: #374151;
     max-width: 900px;
     margin: 0 auto;
+    text-indent: 2em;
+    text-align: justify;
 }
 
 /* Section Contact */
